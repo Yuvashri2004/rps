@@ -6,9 +6,9 @@ function start(){
 
 }
 
-clickedHand=["<img src='portfolio\images\rock.png' id='img1'>","<img src='portfolio\images\paper.png' id='img1'>","<img src='portfolio\images\scissors.png' id='img1'>" ];
+clickedHand=["<img src='images\\rock.png' id='img1'>","<img src='images\\paper.png' id='img1'>","<img src='images\\scissors.png' id='img1'>" ];
 
-clickedRightHand=["<img src='portfolio\images\rock.png' id='img2'>","<img src='portfolio\images\paper.png' id='img2'>","<img src='portfolio\images\scissors.png' id='img2'>" ];
+clickedRightHand=["<img src='images\\rock.png' id='img2'>","<img src='images\\paper.png' id='img2'>","<img src='images\\scissors.png' id='img2'>" ];
 
 function game(position){
   document.getElementById("img1").style.animation='shakeLeft 1s 5 ease-in-out';
